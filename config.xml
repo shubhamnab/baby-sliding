@@ -27,5 +27,18 @@
     <icon src="favicon.png"  gap:platform="android"    gap:density="xhdpi" />
     <icon src="favicon.png"  gap:platform="winphone" />
     
+    <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="favicon.png" density="land-hdpi"/>
+    <splash src="favicon.png" density="land-ldpi"/>
+    <splash src="favicon.png" density="land-mdpi"/>
+    <splash src="favicon.png" density="land-xhdpi"/>
+
+    <splash src="favicon.png" density="port-hdpi"/>
+    <splash src="favicon.png" density="port-ldpi"/>
+    <splash src="favicon.png" density="port-mdpi"/>
+    <splash src="favicon.png" density="port-xhdpi"/>
+</platform>
+    
 
     </widget>
